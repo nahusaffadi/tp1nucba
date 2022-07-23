@@ -1,51 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Formulario</title>
 </head>
 <body>
-    <h1>Formulario de registro</h1>
-    <div>
-       <p>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" required placeholder="Ingresa tu nombre">
-       </p>
-    </div>
-    <div>
-        <p>
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" required placeholder="Ingrese su apellido">
-        </p>
-    </div>
-    <div>
-        <p>
-            Modalidad de Cursada:
-                 <input type="radio" name="cursada" id="ondemand"> 
-                 <label for="ondemand">On-Demand</label>
-                 <input type="radio" name="cursada" id="envivo" > 
-                 <label for="envivo">En vivo</label> 
-        </p>
-    </div>
-    <div>
-        <p>
-            <label for="correo">Correo:</label>
-            <input type="email" id="correo" required placeholder="Ingrese su correo">
-        </p>
-    </div>
-    <div>
-        <p>
-            <input type="checkbox"  id="informacion">
-            <label for="informacion">Deseo recibir información sobre nuevos posteos en la plataforma de Nucba</label>
-        </p>
-    </div>
-    <div>
-        <p>
-            <input type="checkbox" id="terminos" required>
-            <label for="terminos">Declaro que leí los terminos y condiciones y estoy listo para convertime en desarrollador web Full Stack</label>
-        </p>
-    </div>
-    <div>
-        <button>Enviar</button>
-    </div>
+    <head>
+        <h1>Formulario de registro</h1>
+    </head>
+    <main>
+        <form>
+            <section>
+                <div>
+                    <p>
+                         <label for="nombre">Nombre:</label>
+                         <input type="text" id="nombre" required placeholder="Ingresa tu nombre">
+                    </p>
+                 </div>
+                 <div>
+                     <p>
+                         <label for="apellido">Apellido:</label>
+                         <input type="text" id="apellido" required placeholder="Ingrese su apellido">
+                     </p>
+                 </div>
+                 <div>
+                     <p>
+                         Modalidad de Cursada:
+                              <input type="radio" name="cursada" id="ondemand" required> 
+                              <label for="ondemand">On-Demand</label>
+                              <input type="radio" name="cursada" id="envivo" required> 
+                              <label for="envivo">En vivo</label> 
+                     </p>
+                 </div>
+                 <div>
+                     <p>
+                         <label for="correo">Correo:</label>
+                         <input type="email" id="correo" required placeholder="Ingrese su correo">
+                     </p>
+                 </div>
+                 <div>
+                     <p>
+                         <input type="checkbox"  id="informacion">
+                         <label for="informacion">Deseo recibir información sobre nuevos posteos en la plataforma de Nucba</label>
+                     </p>
+                 </div>
+                 <div>
+                     <p>
+                         <input type="checkbox" id="terminos" required>
+                         <label for="terminos">Declaro que leí los terminos y condiciones y estoy listo para convertime en desarrollador web Full Stack</label>
+                     </p>
+                 </div>
+                 <div>
+                     <input type="submit" value="Enviar"/>
+                 </div>
+            </section>
+        </form>
+    </main>
 </body>
 </html>
